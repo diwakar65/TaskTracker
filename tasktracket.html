@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Listing Platform</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Local Events</h1>
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search events...">
+      <select id="sort">
+        <option value="date">Sort by Date</option>
+        <option value="category">Sort by Category</option>
+      </select>
+      <button id="toggle-mode">Light/Dark Mode</button>
+    </div>
+  </header>
+  <main id="event-list"></main>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Details</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1 id="event-title">Event Details</h1>
+  </header>
+  <main>
+    <img id="event-image" src="" alt="Event Image">
+    <p id="event-description"></p>
+    <p id="event-date"></p>
+    <p id="event-location"></p>
+    <button id="register">Register</button>
+  </main>
+  <script src="assets/js/event-details.js"></script>
+</body>
+</html>
+ 
